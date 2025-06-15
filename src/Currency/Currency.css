@@ -1,0 +1,24 @@
+.selectors{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  height: 60px;
+  margin-top: 15px;
+}
+.converted{
+  border: 2px solid orangered;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .selectors{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .converted{
+    margin-top: 50px;
+  }
+  }

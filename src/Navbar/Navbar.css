@@ -1,0 +1,7 @@
+
+.navcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,red,rgb(250, 138, 9));
+}
